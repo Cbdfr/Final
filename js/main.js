@@ -1,5 +1,5 @@
 $(function(){
-    $(".content").load("index-fin.html"); 
+    $(".content").load("Oblast.html"); 
 });
 
 function loadPage(page){
