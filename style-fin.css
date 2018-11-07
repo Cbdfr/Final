@@ -8,6 +8,10 @@
     background: url('Img/Fon1.jpg');
     background-size: cover;
 }
+body{
+    background: url('Img/trava_poverhnost_veter.jpg');
+    background-size: cover;
+}
 .logo {
     /*padding: 25vh 0;*/
     display: flex;
