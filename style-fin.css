@@ -73,6 +73,10 @@
     margin-left: 120px;
 }
 
+.rc {
+    justify-content: center;
+}
+
 .post span {
     color: #fff;
     font-size: 25px;
