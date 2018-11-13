@@ -9,7 +9,7 @@
     background-size: cover;
 }
 body{
-    background: url('Img/trava_poverhnost_veter.jpg');
+    background: url('Img/trava2.jpg');
     background-size: cover;
 }
 .logo {
@@ -41,7 +41,7 @@ body{
     font-size: 35px;
     text-align: center;
     font-weight: bolder;
-    color: hsl(116, 52%, 35%);
+    color: hsl(116, 53%, 24%);
     text-shadow: -1px -1px 0 hsl(180, 2%, 10%),
     -2px -2px 1px hsl(180, 2%, 10%); 
     border: 0vh
@@ -49,8 +49,8 @@ body{
 .image{
     margin-top: 20px;
     margin-left: 0px;
-
-}
+    
+  }
 .logo2{
     margin-top: 20px;
 }
@@ -79,6 +79,7 @@ body{
 
 .rc {
     justify-content: center;
+    margin-top: 20px;
 }
 
 .post span {
@@ -104,12 +105,16 @@ H1 {
                  0 0 skyblue;
     color: transparent;
     transition: all 1s;
-    }
+    justify-content: center;
+    text-align: center;
+}
     H1:hover {
       text-shadow: -400px 0 tomato,
                    400px 0 yellowgreen,
                    0 0 skyblue;
-      }
+                   justify-content: center;
+                   text-align: center;
+                }
 
 img{
     max-width: 100%
