@@ -119,3 +119,6 @@ H1 {
 img{
     max-width: 100%
 }
+.carousel-item {
+    width: 300px; 
+}
