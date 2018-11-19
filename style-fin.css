@@ -5,11 +5,11 @@
     z-index: 1;
     height: 14vh;
     width: 100%;
-    background: url('img/Fon1.jpg');
+    background: url('Img/Fon1.jpg');
     background-size: cover;
 }
 body{
-    background: url('img/trava2.jpg');
+    background: url('Img/trava2.jpg');
     background-size: cover;
 }
 .logo {
