@@ -100,18 +100,19 @@ body{
 
 H1 {
     overflow: hidden;
-    text-shadow: 0 0 tomato,
-                 0 0 yellowgreen,
-                 0 0 skyblue;
+    text-shadow: 0 0 rgb(228, 38, 5),
+                 0 0 rgb(115, 172, 2),
+                 0 0 rgb(5, 152, 211);
     color: transparent;
     transition: all 1s;
     justify-content: center;
     text-align: center;
+    font-weight: bolder;
 }
     H1:hover {
-    text-shadow: -400px 0 tomato,
-                  400px 0 yellowgreen,
-                  0 0 skyblue;
+    text-shadow: -400px 0 rgb(243, 40, 4),
+                  400px 0 rgb(117, 172, 7),
+                  0 0 rgb(5, 152, 211);
     justify-content: center;
     text-align: center;
 }
@@ -150,4 +151,18 @@ img{
     height: 1000px;
     padding: 20px 0;
     margin: 0 auto;
+}
+.text{
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: justify;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+.img-s{
+    float:left; 
+    margin: 10px 20px 10px 0;
+    align: left; 
+    box-shadow: 0 0 5px 2px; 
 }
