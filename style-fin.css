@@ -8,16 +8,19 @@
     background: url('Img/Fon1.jpg');
     background-size: cover;
 }
-body{
+
+body {
     background: url('Img/trava2.jpg');
     background-size: cover;
 }
+
 .logo {
     /*padding: 25vh 0;*/
     display: flex;
     flex-direction: column;
     line-height: 1em;
 }
+
 .title {
     font-size: 26px;
     text-align: center;
@@ -26,7 +29,8 @@ body{
     text-shadow: -1px -1px 0 hsl(228, 2%, 60%),
     -2px -2px 1px hsl(228, 2%, 60%);
 }
-.big_title{
+
+.big_title {
     font-size: 50px;
     color: hsl(214, 80%, 52%);
     text-align: center;
@@ -34,7 +38,8 @@ body{
     text-shadow: -1px -1px 0 hsl(239, 83%, 16%),
              -2px -2px 1px hsl(239, 83%, 16%);
 }
-.title1{
+
+.title1 {
     font-size: 35px;
     text-align: center;
     font-weight: bolder;
@@ -43,39 +48,46 @@ body{
     -2px -2px 1px hsl(180, 2%, 10%); 
     border: 0vh;
 }
-.image{
+
+.image {
     margin-top: 20px;
     margin-left: 0px;
 }
-.logo2{
+
+.logo2 {
     margin-top: 20px;
 }
+
 .menu {
     position: relative;
     z-index: 2;
     padding: 0 148px;
     margin-top: 30px;
 }
+
 .btn-info {
     color: #fff;
     background-color: #04282e;
     border-color: #04282e;
 }
-.avtor  {
+.avtor {
     background: rgb(235, 229, 229);
     font-weight: bolder;
 }
-.title2{
+
+.title2 {
     font-size: 15px;
     text-align: center;
     color: hsl(120, 3%, 45%);
     margin-top: 20px;
     margin-left: 120px;
 }
+
 .rc {
     justify-content: center;
     margin-top: 20px;
 }
+
 .post span {
     color: #fff;
     font-size: 25px;
@@ -89,9 +101,11 @@ body{
     z-index: 2;
     cursor: pointer;
 }
+
 .container {
     padding-top: 50px;
 }
+
 H1 {
     overflow: hidden;
     text-shadow: 0 0 rgb(228, 38, 5),
@@ -111,14 +125,17 @@ H1 {
     text-align: center;
     cursor: pointer;
 }
-img{
+
+img {
     max-width: 100%
 }
+
 .carousel-item {
     width: 100%; 
     height: 500px;
     padding-left: 50px;
 }
+
 .map {
     display: flex;
     justify-content: center;
@@ -127,7 +144,8 @@ img{
     padding: 20px 0;
     margin: 0 auto;
 }
-.bloc{
+
+.bloc {
     display: flex;
     justify-content: center;
     width: 80%;
@@ -135,10 +153,12 @@ img{
     padding: 20px 0;
     margin: 0 auto;
 }
-.carousel-control-prev{
+
+.carousel-control-prev {
     padding-top: 50%;
 }
-.carousel-inner{
+
+.carousel-inner {
     display: flex;
     justify-content: center;
     width: 80%;
@@ -146,7 +166,8 @@ img{
     padding: 20px 0;
     margin: 0 auto;
 }
-.text{
+
+.text {
     margin-left: 10%;
     margin-right: 10%;
     text-align: justify;
@@ -154,14 +175,15 @@ img{
     font-weight: bold;
     font-size: 18px;
 }
-.img-s{
+
+.img-s {
     float:left; 
     margin: 10px 20px 10px 0;
     align: left; 
     box-shadow: 0 0 5px 2px; 
 }
 
-.info_text{
+.info_text {
     color: white;
     text-shadow: 1px 1px #732372, 1px -1px #732372, -1px 1px #732372, -1px -1px #732372, 3px 3px 6px rgba(0,0,0,.5);
     font-weight: 700;
@@ -175,12 +197,12 @@ img{
     background: #f2f2f2;
 }
 
-.info_line span{
+.info_line span {
     font-size: 18px;
     font-weight: bold; 
 }
 
-.info_line span:first-child{
+.info_line span:first-child {
     display: inline-block;
     font-weight: 600;
     padding: 15px;
