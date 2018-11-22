@@ -13,7 +13,6 @@ body {
     background: url('Img/trava2.jpg');
     background-size: cover;
 }
-
 .logo {
     /*padding: 25vh 0;*/
     display: flex;
@@ -98,6 +97,7 @@ body {
     padding: 5px;
     width: 100%;
     text-align: center;
+    justify-content: center;
     z-index: 2;
     cursor: pointer;
 }
@@ -108,28 +108,34 @@ body {
 
 H1 {
     overflow: hidden;
-    text-shadow: 0 0 rgb(228, 38, 5),
-                 0 0 rgb(115, 172, 2),
-                 0 0 rgb(5, 152, 211);
+    text-shadow: 0 0 rgb(39, 30, 28),
+                 0 0 rgb(117, 172, 9),
+                 0 0 rgb(20, 132, 177);
     color: transparent;
     transition: all 1s;
-    justify-content: center;
-    text-align: center;
+    text-align: center;    
     font-weight: bolder;
 }
     H1:hover {
-    text-shadow: -400px 0 rgb(243, 40, 4),
+    text-shadow: -400px 0 rgb(117, 22, 6),
                   400px 0 rgb(117, 172, 7),
-                  0 0 rgb(5, 152, 211);
-    justify-content: center;
+                  0 0 rgb(20, 132, 177);
     text-align: center;
     cursor: pointer;
+}
+H2 {font-family: Pompadur, 'Comic Sans MS', cursive;
+    font-weight: bold;
+    text-align: center;
 }
 
 img {
     max-width: 100%
 }
-
+.imgCenter {
+    max-width: 60%;
+    text-align:center;
+    display:block; margin:15px auto 25px;
+}
 .carousel-item {
     width: 100%; 
     height: 500px;
@@ -140,7 +146,7 @@ img {
     display: flex;
     justify-content: center;
     width: 80%;
-    height: 500px;
+    height: 430px;
     padding: 20px 0;
     margin: 0 auto;
 }
@@ -209,6 +215,10 @@ img {
     margin-right: 15px;
     width: 250px;
     border-right: 1px solid #dedede;
+}
+
+.navbar {
+    z-index: 1;
 }
 
 
